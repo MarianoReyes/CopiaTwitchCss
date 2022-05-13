@@ -21,9 +21,13 @@ export default {
                 use: ["style-loader", "css-loader"]
             },
             {
-                test: /\.(png|jpg|gif|svg|mp3|ttf)$/,
+                test: /\.(png|jpg|gif|mp3|ttf)$/,
                 use: [{loader: 'file-loader'}]
-            },         
+            },
+            {
+                test: /\.(svg)$/,
+                use: ['url-loader','svg-transform-loader']
+            },        
         ],
     },
     resolve: {
