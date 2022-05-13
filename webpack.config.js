@@ -18,7 +18,7 @@ export default {
             },
             {
                 test: /\.css$/,
-                use: ['css-hot-loader',],
+                use: ["style-loader", "css-loader"]
             },
             {
                 test: /\.(png|jpg|gif|svg|mp3|ttf)$/,
