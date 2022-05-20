@@ -1,3 +1,4 @@
+
 .header{
     height: 50px;
     width: 100%;
@@ -23,6 +24,18 @@
     background-color: #efeff1;
 }
 
-svg{
-    color: #efeff1;
+.header-elemento-svg{
+    padding: 4px;
 }
+
+.header-elemento-svg:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    color: #efeff1;
+    border-radius: 4px;
+}
+
+.header-elemento-svg svg{
+    fill: #efeff1;
+}
+
+

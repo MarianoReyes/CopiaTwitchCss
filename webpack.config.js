@@ -26,7 +26,7 @@ export default {
             },
             {
                 test: /\.(svg)$/,
-                use: ['url-loader','svg-transform-loader']
+                use: ['@svgr/webpack']
             },        
         ],
     },

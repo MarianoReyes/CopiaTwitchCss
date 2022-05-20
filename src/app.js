@@ -1,25 +1,18 @@
 import React, { useState } from 'react';
-import './style.css'
-import trespuntos from '../public/img/3puntos.svg'
-
+import '/public/css/style.css'
+import Navbar from './components/navbar.js'
+import Sidebar from './components/sidebar.js'
 
 export default function App (){
     return (
-        <div>
-            <div className='header'>
-                <div className='header-elemento'>
-                    <h1>Siguiendo</h1>
-                </div>
-                <div className='header-elemento'>
-                    <h1>Explorar</h1>
-                </div>
-                <div className='header-elemento'>
-                <img width='20px' height='20px' src={trespuntos}/>
-            </div>
-        
-            </div>
-                     
-        </div>
+        <>
+            
+            
+            <Navbar/> 
+            <Sidebar/>
+            
+                
+        </>
       );
 }
 
