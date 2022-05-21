@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '/public/css/sidebar.css'
-import expandir from '/public/img/expandir.svg'
-import Expandirinverso from '/public/img/expandir_inverso.svg'
+import SidebarNormal from './sidebar_normal.js';
+import SiderbarCollapsed from './sidebar_colapsado.js'
 
 export default function Sidebar (){
 
@@ -13,12 +13,7 @@ export default function Sidebar (){
     
     if (collapsed){
         return(
-            <>
-            <br/>
-            <br/>
-            <br/>
-            <h1 onClick={sidebarToggle}>collapsed</h1>
-            </>
+            <SiderbarCollapsed sidebarToggle={sidebarToggle}/>
             
 
         )
@@ -26,13 +21,7 @@ export default function Sidebar (){
 
     return (
         
-        <div className="sidebar">
-            <div className='sidebar-section'>
-                <h3>CANALES QUE SIGUES</h3>
-                <Expandirinverso width='20px' height='20px' onClick={sidebarToggle}/>
-            </div>
-            <a href="#home"> Canal 1</a>
-        </div>
+        <SidebarNormal sidebarToggle={sidebarToggle}/>
 
     );
 }

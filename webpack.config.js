@@ -1,3 +1,7 @@
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+
+const title = 'Twitch'
+
 export default {
     mode: 'development',
     entry: './src/index.js',
@@ -33,4 +37,14 @@ export default {
     resolve: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'Twitch',
+            template: 'src/index.html',
+            filename: `index.html`,
+            favicon: "public/img/twitch.png",
+            name: 'index',
+            inject: true
+        }),
+    ]
 }

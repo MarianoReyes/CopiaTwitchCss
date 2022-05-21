@@ -1,4 +1,4 @@
-
+/*Side-Bar normal*/
 .sidebar {
     height: 100%;
     width: 240px;
@@ -45,10 +45,41 @@
 }
 
 .sidebar-section svg{
-    padding: 0 10px;
-    fill: #efeff1;
+    margin-right: 10px;
 }
   
 .sidebar a:hover {
     color: #f1f1f1;
 }
+
+
+/*Side-Bar colapsado*/
+.sidebar-collapsed{
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1f1f23;
+    overflow-x: hidden;
+    margin-top: 50px;
+    padding-top: 10px;
+    font-family: nter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+
+/*SVG*/
+.sidebar-svg svg{
+    padding: 4px;
+    fill: #efeff1;
+}
+
+.sidebar-svg svg:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    color: #efeff1;
+    border-radius: 4px;
+}
+
