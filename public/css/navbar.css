@@ -19,6 +19,11 @@
     color: #efeff1;
 }
 
+.header-elemento h1:hover{
+    color: #bf94ff;
+    cursor: hand!important;
+}
+
 .header-elemento img{
     color: #efeff1;
     background-color: #efeff1;
@@ -32,6 +37,7 @@
     background-color: rgb(255, 255, 255, 0.2);
     color: #efeff1;
     border-radius: 4px;
+    cursor: hand;
 }
 
 .header-elemento-svg svg{

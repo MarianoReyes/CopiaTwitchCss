@@ -69,6 +69,31 @@
     display: flex;
     align-items:  center;
     flex-direction: column;
+    
+}
+
+.sidebar-section-collapsed{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.sidebar-collapsed-svg svg{
+    padding: 4px;
+    fill: #adadb8;
+    margin: 5px 0 3px 0;
+}
+
+.sidebar-section-collapsed img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.away{
+    filter: grayscale(100%) brightness(85%)
 }
 
 /*SVG*/
@@ -83,3 +108,10 @@
     border-radius: 4px;
 }
 
+.mb-custom{
+    margin-bottom: 13px;
+}
+
+.mb-custom2{
+    margin-bottom: -3px;
+}
