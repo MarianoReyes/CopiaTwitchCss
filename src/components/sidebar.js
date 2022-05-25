@@ -13,15 +13,15 @@ export default function Sidebar (){
     
     if (collapsed){
         return(
-            <SiderbarCollapsed sidebarToggle={sidebarToggle}/>
             
+            <SidebarNormal sidebarToggle={sidebarToggle}/>    
 
         )
     }
 
     return (
         
-        <SidebarNormal sidebarToggle={sidebarToggle}/>
+        <SiderbarCollapsed sidebarToggle={sidebarToggle}/>
 
     );
 }
