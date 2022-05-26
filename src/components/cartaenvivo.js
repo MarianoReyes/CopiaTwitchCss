@@ -5,8 +5,10 @@ import Trespuntos from '/public/img/3puntos.svg'
 export default function cartaenvivo(props) {
     return (
         <div className="carta-en-vivo">
-            <img src={props.img} className="imagen" />
-            <div className="d-flex">
+            <div className="imagen">
+                <img src={props.img}/>
+            </div>        
+            <div className="d-flex">                
                 <img src={props.logo} className="logo"/>
                 <div className="texto">
                     <h4>{props.texto}</h4>
