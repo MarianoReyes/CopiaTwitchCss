@@ -12,6 +12,10 @@
     padding-top: 10px;
     font-family: nter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.margin-right-240{
+    margin-right: 240px;
+}
   
 .sidebar a {
     padding: 6px 8px 6px 16px;
@@ -70,6 +74,10 @@
     align-items:  center;
     flex-direction: column;
     
+}
+
+.margin-right-50{
+    margin-right: 50px;
 }
 
 .sidebar-section-collapsed{

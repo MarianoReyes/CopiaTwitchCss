@@ -1,3 +1,147 @@
 .contenedor-en-vivo{
     width: 100%;
+    display: flex;
+}
+
+.titulo-en-vivo h3{
+    font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #efeff1;
+}
+
+.carta-en-vivo{
+    max-width: 293px;
+    margin-right: 20px;
+}
+
+.carta-en-vivo .imagen{
+    width: 300px;
+    height: 175px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.logo{
+    width: 35px!important;
+    height: 35px!important;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.carta-en-vivo .texto {
+    font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: start;
+    letter-spacing: normal;
+    color: #efeff1;
+}
+
+.carta-en-vivo .texto .full-texto{
+    background-color: rgba(68, 68, 68, 0.85);
+    color: #adadb8;
+    padding: 2px;
+    display: none;
+    font: 13px;
+    line-height: 19.5px;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.carta-en-vivo .texto h4{
+    max-width: 237px;
+    font-size: 13px;
+    line-height: 19.5px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+    pointer-events:none;
+}
+
+.carta-en-vivo .texto h4:after {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    border: 1px solid rgb(255,255,255,0);
+    pointer-events:initial;
+}
+
+.carta-en-vivo .texto h4:hover + .full-texto{
+    display: block;
+} 
+
+.carta-en-vivo .texto p{
+    color: #adadb8;
+    font-size: 13px;
+    line-height: 19.5px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.carta-en-vivo .texto h4:hover{
+    color: #bf94ff;
+    cursor:context-menu;
+}
+
+
+.carta-en-vivo .texto p:hover{
+    color: #bf94ff;
+    cursor:context-menu;
+}
+
+.carta-en-vivo .texto .tags{
+    margin-top: 8px;
+}
+
+.carta-en-vivo .texto .tag{
+    background-color: rgb(255, 255, 255, 0.15);
+    color: rgb(255, 255, 255, 0.70);
+    padding: 2px 8px;
+    margin-right: 7px;
+    border-radius: 15%/50%;
+    font-size: 12px;
+}
+
+.carta-en-vivo .texto .tag:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255, 0.70);
+    padding: 2px 8px;
+    margin-right: 7px;
+    border-radius: 15%/50%;
+    font-size: 12px;
+    cursor:context-menu;
+}
+
+.carta-en-vivo .vermas{
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.carta-en-vivo svg{
+    padding: 4px;
+}
+
+.carta-en-vivo svg:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    color: #efeff1;
+    border-radius: 4px;
+    cursor: hand;
+}
+
+.carta-en-vivo svg{
+    fill: #efeff1;
 }

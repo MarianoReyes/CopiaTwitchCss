@@ -14,14 +14,18 @@ export default function Sidebar (){
     if (collapsed){
         return(
             
-            <SidebarNormal sidebarToggle={sidebarToggle}/>    
+            <div className='margin-right-240'>
+                <SidebarNormal sidebarToggle={sidebarToggle}/>    
+            </div>
 
         )
     }
 
     return (
-        
-        <SiderbarCollapsed sidebarToggle={sidebarToggle}/>
 
+        <div className='margin-right-50'>
+            <SiderbarCollapsed sidebarToggle={sidebarToggle}/>
+        </div>
+        
     );
 }

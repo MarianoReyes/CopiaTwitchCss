@@ -16,11 +16,11 @@ export default function App (){
             
             <Navbar/> 
             <div className='d-flex'>
-                <div className='w-siderbar'>
+                <div className='sidebar-width'>
                     <Sidebar/>
                 </div>
                 
-                <div className='w-body body-principal'>
+                <div className='body-principal'>
                     <Carrusel/>
                     <ContenedorEnVivo/>
                 </div>  
