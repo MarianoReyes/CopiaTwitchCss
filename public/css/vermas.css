@@ -1,0 +1,28 @@
+.linea{
+    display: flex;
+}
+
+.linea .linea-div{
+    width: 45%;
+    border-top: 0.5px solid rgb(255,255,255,0.2);
+    position: relative;
+    transform: translateY(50%);
+}
+
+.linea p{
+    color: #bf94ff;
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 19.5px;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    width: auto;
+}
+
+.linea p:hover{
+    background-color: rgb(255,255,255,0.2);
+    border-radius: 5%/20%;
+    cursor: context-menu;
+}

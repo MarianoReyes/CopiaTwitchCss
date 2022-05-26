@@ -1,4 +1,4 @@
-.contenedor-en-vivo{
+.contenedor-en-vivo-cats{
     width: 100%;
     display: flex;
 }
@@ -12,26 +12,40 @@
     color: #efeff1;
 }
 
-.carta-en-vivo{
-    max-width: 293px;
+.titulo-en-vivo .titulo-en-vivo-cats{
+    font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #bf94ff;
+    cursor: context-menu;
+}
+
+.titulo-en-vivo .titulo-en-vivo-cats:hover{
+    text-decoration: underline;
+}
+
+.carta-en-vivo-cats{
+    max-width: 150px;
     margin-right: 20px;
 }
 
-.carta-en-vivo .imagen img{
-    width: 300px;
+.carta-en-vivo-cats .imagen img{
+    width: 150px;
     height: 175px;
     transition: transform .2s ease-out;
     position: relative;
 }
 
-.carta-en-vivo .imagen{
-    width: 300px;
+.carta-en-vivo-cats .imagen{
+    width: 150px;
     height: 175px;
     transition: transform .2s ease-out;
     position: relative;
 }
 
-.carta-en-vivo .imagen:before{
+.carta-en-vivo-cats .imagen:before{
     content: "";
     position: absolute;
     width: 100%;
@@ -40,25 +54,9 @@
     z-index: -1;
 }
 
-.carta-en-vivo .imagen:after{
-    content: "EN VIVO";
-    font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    line-height: 21.6px;
-    text-align: start;
-    letter-spacing: normal;
-    color: #efeff1;
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 0 5px;
-    border-radius: 10%/25%;
-    background-color: red;
-}
 
-.carta-en-vivo .imagen img:hover{
+
+.carta-en-vivo-cats .imagen img:hover{
     transform: translate(5px, -7px);
 }
 
@@ -74,14 +72,14 @@
     margin-right: 10px;
 }
 
-.carta-en-vivo .texto {
+.carta-en-vivo-cats .texto {
     font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: start;
     letter-spacing: normal;
     color: #efeff1;
 }
 
-.carta-en-vivo .texto .full-texto{
+.carta-en-vivo-cats .texto .full-texto{
     background-color: rgba(68, 68, 68, 0.85);
     color: #adadb8;
     padding: 2px;
@@ -92,8 +90,8 @@
     border: 1px solid white;
 }
 
-.carta-en-vivo .texto h4{
-    max-width: 237px;
+.carta-en-vivo-cats .texto h4{
+    max-width: 120px;
     font-size: 13px;
     line-height: 19.5px;
     white-space: nowrap; 
@@ -105,7 +103,7 @@
     pointer-events:none;
 }
 
-.carta-en-vivo .texto h4:after {
+.carta-en-vivo-cats .texto h4:after {
     content:"";
     display: block;
     position: absolute;
@@ -118,11 +116,11 @@
     pointer-events:initial;
 }
 
-.carta-en-vivo .texto h4:hover + .full-texto{
+.carta-en-vivo-cats .texto h4:hover + .full-texto{
     display: block;
 } 
 
-.carta-en-vivo .texto p{
+.carta-en-vivo-cats .texto p{
     color: #adadb8;
     font-size: 13px;
     line-height: 19.5px;
@@ -132,22 +130,22 @@
     margin: 0;
 }
 
-.carta-en-vivo .texto h4:hover{
+.carta-en-vivo-cats .texto h4:hover{
     color: #a970ff;
     cursor:context-menu;
 }
 
 
-.carta-en-vivo .texto p:hover{
+.carta-en-vivo-cats .texto p:hover{
     color: #a970ff;
     cursor:context-menu;
 }
 
-.carta-en-vivo .texto .tags{
+.carta-en-vivo-cats .texto .tags{
     margin-top: 8px;
 }
 
-.carta-en-vivo .texto .tag{
+.carta-en-vivo-cats .texto .tag{
     background-color: rgb(255, 255, 255, 0.15);
     color: rgb(255, 255, 255, 0.70);
     padding: 2px 8px;
@@ -156,7 +154,7 @@
     font-size: 12px;
 }
 
-.carta-en-vivo .texto .tag:hover{
+.carta-en-vivo-cats .texto .tag:hover{
     background-color: rgb(255, 255, 255, 0.2);
     color: rgb(255, 255, 255, 0.70);
     padding: 2px 8px;
@@ -166,22 +164,22 @@
     cursor:context-menu;
 }
 
-.carta-en-vivo .vermas{
+.carta-en-vivo-cats .vermas{
     margin-top: 10px;
     margin-left: auto;
 }
 
-.carta-en-vivo svg{
+.carta-en-vivo-cats svg{
     padding: 4px;
 }
 
-.carta-en-vivo svg:hover{
+.carta-en-vivo-cats svg:hover{
     background-color: rgb(255, 255, 255, 0.2);
     color: #efeff1;
     border-radius: 4px;
     cursor: hand;
 }
 
-.carta-en-vivo svg{
+.carta-en-vivo-cats svg{
     fill: #efeff1;
 }

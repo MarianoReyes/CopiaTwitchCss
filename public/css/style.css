@@ -34,3 +34,11 @@ body{
 .d-flex{
     display: flex;
 }
+
+.linea-full{
+    width: 100%;
+    border-top: 0.5px solid rgb(255,255,255,0.2);
+    position: relative;
+    transform: translateY(50%);
+    margin: 20px 0;
+}

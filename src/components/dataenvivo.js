@@ -1,13 +1,13 @@
-import liveauron from '/public/img/live_user_auronplay.jpg';
-import liverubius from '/public/img/live_user_rubius.jpg';
-import livejagger from '/public/img/live_user_jaggerprincesa.jpg';
-import livechiringuito from '/public/img/live_user_elchiringuitotv.jpg';
-import livexokas from '/public/img/live_user_elxokas-440x248.jpg';
-import rubius from '/public/img/rubius.jpg';
-import auron from '/public/img/auron.png';
-import jagger from '/public/img/jagger.png';
-import chiringuito from '/public/img/chiringuito.png';
-import xokas from '/public/img/xokas.png';
+import liveauron from '../../public/img/live_user_auronplay.jpg';
+import liverubius from '../../public/img/live_user_rubius.jpg';
+import livejagger from '../../public/img/live_user_jaggerprincesa.jpg';
+import livechiringuito from '../../public/img/live_user_elchiringuitotv.jpg';
+import livexokas from '../../public/img/live_user_elxokas-440x248.jpg';
+import rubius from '../../public/img/rubius.jpg';
+import auron from '../../public/img/auron.png';
+import jagger from '../../public/img/jagger.png';
+import chiringuito from '../../public/img/chiringuito.png';
+import xokas from '../../public/img/xokas.png';
 
 export default [
   {
@@ -16,7 +16,7 @@ export default [
     texto: 'London Eye - Final parte 2 de 3',
     nombre: 'auronplay',
     actividad: 'Grand Theft Auto V',
-    tags: ['Español']
+    tags: ['Español'],
   },
   {
     img: liverubius,
@@ -24,7 +24,7 @@ export default [
     texto: 'PENULTIMO DIA - JUICIO EN VIVO DE JOHNNY DEPP VS AMBER HEARD - HOY TESTIFICA AMBER',
     nombre: 'Rubius',
     actividad: 'Conversando',
-    tags: ['Español', 'Furry']
+    tags: ['Español', 'Furry'],
   },
   {
     img: livejagger,
@@ -32,7 +32,7 @@ export default [
     texto: 'MÚSICA SATANIZADA 3D PARA MIS AMIGOS',
     nombre: 'JaggerPrincesa',
     actividad: 'Conversando',
-    tags: ['Español']
+    tags: ['Español'],
   },
   {
     img: livechiringuito,
@@ -40,7 +40,7 @@ export default [
     texto: '!EL CHIRINGUITO YA ESTA EN PARIS',
     nombre: 'ElChiringuitoTV',
     actividad: 'Deportes',
-    tags: ['Español', 'Futbol']
+    tags: ['Español', 'Futbol'],
   },
   {
     img: livexokas,
@@ -48,6 +48,6 @@ export default [
     texto: 'DIA 10, MALENIA !REDES',
     nombre: 'elXokas',
     actividad: 'Elden Ring',
-    tags: ['Español']
-  }
-]
+    tags: ['Español'],
+  },
+];

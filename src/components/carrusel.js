@@ -1,16 +1,13 @@
-import { ClassNames } from '@emotion/react'
-import React, {StyleSheet, useState} from 'react'
-import '/public/css/carrusel.css'
-import carruselfoto from '/public/img/carrusel.png'
+import React from 'react';
+import '../../public/css/carrusel.css';
+import carruselfoto from '../../public/img/carrusel.png';
 
-const Carrusel = () => {
-
-  
+function Carrusel() {
   return (
-    <div className='contenedor-carrusel'>
+    <div className="contenedor-carrusel">
       <img src={carruselfoto} />
     </div>
-  )
+  );
 }
 
-export default Carrusel
+export default Carrusel;

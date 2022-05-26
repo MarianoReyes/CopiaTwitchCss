@@ -2,19 +2,16 @@ import React from 'react';
 import '../../public/css/envivo.css';
 import Trespuntos from '../../public/img/3puntos.svg';
 
-export default function cartaenvivo(props) {
+export default function cartagacegorias(props) {
   return (
-    <div className="carta-en-vivo">
+    <div className="carta-en-vivo-cats">
       <div className="imagen">
         <img src={props.img} />
       </div>
       <div className="d-flex">
-        <img src={props.logo} className="logo" />
         <div className="texto">
           <h4>{props.texto}</h4>
-          <div className="full-texto">{props.texto}</div>
-          <p>{props.nombre}</p>
-          <p>{props.actividad}</p>
+          <p>{props.espectadores}</p>
           <div className="tags">
             {props.tags.map((tag) => (
               <a className="tag">{tag}</a>
