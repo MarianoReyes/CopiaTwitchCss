@@ -3,7 +3,7 @@ import '../../public/css/envivo.css';
 import dataenvivo from './dataenvivo.js';
 import Cartaenvivo from './cartaenvivo.js';
 
-function ContenedorEnVivo() {
+function ContenedorEnVivo(props) {
   const envivo = dataenvivo.map((item) => (
     <Cartaenvivo
       img={item.img}
@@ -18,7 +18,7 @@ function ContenedorEnVivo() {
   return (
     <>
       <div className="titulo-en-vivo">
-        <h3>Canales en vivo que podrían gustarte</h3>
+        <h3>{props.title}</h3>
       </div>
       <div className="contenedor-en-vivo">
         {envivo}

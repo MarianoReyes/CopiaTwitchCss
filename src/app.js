@@ -6,6 +6,7 @@ import Carrusel from './components/carrusel.js';
 import ContenedorEnVivo from './components/contenedorenvivo.js';
 import Vermas from './components/vermas.js';
 import CategoriasSugeridas from './components/categoriassugeridas.js';
+import CuadrosCategorias from './components/cuadroscategorias.js';
 
 export default function App() {
   return (
@@ -19,10 +20,15 @@ export default function App() {
 
         <div className="body-principal">
           <Carrusel />
-          <ContenedorEnVivo />
+          <ContenedorEnVivo title="Canales en vivo que podrían gustarte" />
           <Vermas />
           <CategoriasSugeridas />
           <div className="linea-full" />
+          <CuadrosCategorias />
+          <ContenedorEnVivo title="Comunidades más pequeñas recomendadas" />
+          <Vermas />
+          <ContenedorEnVivo title="Reconocer a los creadores de API" />
+          <Vermas />
         </div>
 
       </div>

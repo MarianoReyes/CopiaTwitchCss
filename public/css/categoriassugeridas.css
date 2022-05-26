@@ -33,14 +33,14 @@
 
 .carta-en-vivo-cats .imagen img{
     width: 150px;
-    height: 175px;
+    height: 190px;
     transition: transform .2s ease-out;
     position: relative;
 }
 
 .carta-en-vivo-cats .imagen{
     width: 150px;
-    height: 175px;
+    height: 190px;
     transition: transform .2s ease-out;
     position: relative;
 }
