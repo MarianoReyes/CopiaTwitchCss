@@ -1,4 +1,31 @@
 .contenedor-categorias{
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-categorias .elemento{
+    width: 19%;
+    background-color: #772ce8;
+    padding: 4px;
+    height: 35px;
+    border-radius: 6px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-categorias .elemento h3{
+    color:#fff;
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: start;
+    letter-spacing: normal;
+    margin: 0 15px;
+}
+
+.contenedor-categorias .elemento svg{
+    margin: 0 15px;
 }
