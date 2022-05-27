@@ -28,7 +28,10 @@ body{
     flex-grow: 1;
 }
 
-
+.body-principal img{
+    width: 100%;
+    
+}
 
 .d-flex{
     display: flex;
