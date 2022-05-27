@@ -11,7 +11,7 @@ export default function cartaenvivo(props) {
       <div className="d-flex">
         <img src={props.logo} className="logo" />
         <div className="texto">
-          <h4>{props.texto}</h4>
+          <h4><span>{props.texto}</span></h4>
           <div className="full-texto">{props.texto}</div>
           <p>{props.nombre}</p>
           <p>{props.actividad}</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../public/css/categoriassugeridas.css';
+import '../../public/css/envivo.css';
 import datacategorias from './datacategorias.js';
 import Cartacategorias from './cartacategorias.js';
 
@@ -22,7 +22,7 @@ function CategoriasSugeridas() {
           que podrían gustarte
         </h3>
       </div>
-      <div className="contenedor-en-vivo-cats">
+      <div className="contenedor-en-vivo">
         {categorias}
       </div>
     </>

@@ -14,7 +14,7 @@ export default [
     img: justchatting,
     texto: 'Conversando',
     espectadores: '623.1 k espectadores',
-    tags: ['IRL (vida real)'],
+    tags: ['IRL'],
   },
   {
     img: lol,
@@ -50,7 +50,7 @@ export default [
     img: sports,
     texto: 'Deportes',
     espectadores: '12.8 k espectadores',
-    tags: ['IRL (vida real)'],
+    tags: ['IRL'],
   },
   {
     img: fifa,
@@ -68,6 +68,6 @@ export default [
     img: special,
     texto: 'Eventos Especiales',
     espectadores: '16.5 k espectadores',
-    tags: ['IRL (vida real)'],
+    tags: ['IRL'],
   },
 ];

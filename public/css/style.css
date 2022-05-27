@@ -17,13 +17,15 @@
 body{
     margin: 0;
     background-color: #0e0e10;
-    overflow-x: hidden;
+    width: 99vw;
 }
 
 .body-principal{
-    margin-top: 50px;
-    margin-left: 30px;
-    
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 .body-principal img{
