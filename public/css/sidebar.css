@@ -123,3 +123,72 @@
 .mb-custom2{
     margin-bottom: -3px;
 }
+
+.sidebar-section-collapsed .cartas{
+    display: flex;
+    width: 80%;
+    padding: 0 10%;
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.sidebar-section-collapsed .cartas:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    cursor:context-menu;
+}
+
+.sidebar-section-collapsed .cartas .texto-mid{
+    margin: 4px 10px;
+}
+
+.sidebar-section-collapsed .cartas p{
+    margin: 0;
+    color: #adadb8;
+    font-size: 13px;
+    margin-left: auto;
+}
+
+.sidebar-section-collapsed .cartas h4{
+    margin: 0;
+    color: #efeff1;
+    font-size: 14px;
+}
+
+.sidebar-section-collapsed .cartas img{
+    margin: 0;
+}
+
+.sidebar-section-collapsed .cartas .especial p{
+    position: relative;
+}
+
+.sidebar-section-collapsed .cartas .especial:before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 100;
+    display: block;
+    position: absolute;
+    transform: translateX(-15px) translateY(3px);
+}
+
+.vermas{
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20.4px;
+    color: #bf94ff;
+}
+
+.vermas p{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.vermas p:hover{
+    cursor: context-menu;
+    text-decoration: underline;
+    color: #a970ff;
+}

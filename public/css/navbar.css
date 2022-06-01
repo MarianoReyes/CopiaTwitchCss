@@ -8,6 +8,26 @@
     position: fixed;
     top: 0;
     z-index: 100;
+    justify-content: space-between;
+}
+
+.header-logo{
+    margin: 4px 0 0 13px;
+}
+
+.header .izquierda{
+    display: flex;
+    align-items: center;
+}
+
+.header .centro{
+    display: flex;
+    align-items: center;
+}
+
+.header .derecha{
+    display: flex;
+    align-items: center;
 }
 
 .header-elemento{
@@ -46,4 +66,79 @@
     fill: #efeff1;
 }
 
+.derecha .header-elemento-svg{
+    padding: 4px;
+    margin: 0 10px;
+}
 
+.derecha .header-elemento-svg:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    color: #efeff1;
+    border-radius: 4px;
+    cursor: hand;
+}
+
+.derecha .header-elemento-svg svg{
+    fill: #efeff1;
+}
+
+.header-elemento-perfil img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 13px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.header-bits{
+    font-family: 'Roobert', 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255, 0.15);
+    color: rgb(255, 255, 255, 0.70);
+    border-radius: 5%;
+    font-size: 12px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.header-bits h4{
+    margin: 0;
+}
+
+.header-bits:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255, 0.70);
+    cursor:context-menu;
+}
+
+.header-bits svg{
+    fill: #efeff1;
+    margin-right: 3px;
+}
+
+.centro{
+    display: flex;
+}
+
+.centro input{
+    width: 250px;
+    height: 30px;
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: rgb(255,255,255,0.2);
+    color: rgb(255, 255, 255, 0.70);
+    padding-left: 30px;
+    border: none;
+    border-radius: 3% 0 0 3%/ 7% 0 0 7%;
+}
+
+.centro svg{
+    fill: #efeff1;
+    padding: 6px;
+    margin-left: 0.8px;
+    border-radius: 0 10% 10% 0;
+    background-color: rgb(255, 255, 255, 0.15);
+}
