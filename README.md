@@ -5,6 +5,7 @@ En este repositorio se realiza una copia de la página de streamings conocida co
 ## Tecnologías Usadas:
 - React
 - Webpack
+- Netlify (Host de Página)
 - npm
 - eslint (como herramienta para ordenar código)
 
